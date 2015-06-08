@@ -47,5 +47,15 @@ namespace :crawler do
     Hani.run "http://www.hani.co.kr/rss/cartoon/"
     Hani.run "http://www.hani.co.kr/rss/lead/"
     Hani.run "http://www.hani.co.kr/rss/newsrank/"
+
+    Koreakr.run "http://www.korea.kr/rss/policy_all.xml"
+    Koreakr.run "http://www.korea.kr/rss/policy_economy.xml"
+    Koreakr.run "http://www.korea.kr/rss/policy_society.xml"
+    Koreakr.run "http://www.korea.kr/rss/policy_culture.xml"
+    Koreakr.run "http://www.korea.kr/rss/policy_diplomacy.xml"
+    Koreakr.run "http://www.korea.kr/rss/report.xml"
+    Koreakr.run "http://www.korea.kr/rss/fact.xml"
+    Koreakr.run "http://www.korea.kr/rss/card_news.xml"
+
   end
 end
