@@ -21,6 +21,14 @@
 		position: relative;
 		padding: 15px;
 		border-bottom: 1px solid rgb(200, 200, 200);
+
+		.pile-type {
+			margin-right: 10px;
+			&.policy {
+				font-weight: 600;
+				color: rgb(200, 50, 50);
+			}
+		}
 		
 		.title {
 			font-size: 11pt;

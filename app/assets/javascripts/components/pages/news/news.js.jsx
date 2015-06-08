@@ -88,10 +88,19 @@ News.ArticleRow = React.createClass({
     });
   },
   render: function() {
-    var link = "/articles/" + this.props.article.uid
+    var link = "/articles/" + this.props.article.uid;
+
+    var flag_pile_type = this.props.article.pile_type;
+
+    if(flag_pile_type == "news") {
+      var dom_pile_type = <span />
+    } else {
+      var dom_pile_type = <span className='pile-type policy'>[정부자료]</span>
+    }
+
     return (
       <a href={link}><div className='article-row row'>
-        <div className='row'><span className='title'>{this.props.article.title}</span></div>
+        <div className='row'>{dom_pile_type}<span className='title'>{this.props.article.title}</span></div>
         <div className='row'><span className='posted-date'>{this.state.rearrangedTime}</span>, <span className='from-now'>{this.state.fromNow}</span></div>
         <button className='to-main' onClick={this.clickToMain}>주요 뉴스로</button>
       </div></a>
