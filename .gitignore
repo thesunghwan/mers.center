@@ -19,3 +19,4 @@
 public/assets
 
 /config/local_env.yml
+.ruby-version
