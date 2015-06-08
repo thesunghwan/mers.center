@@ -1,0 +1,39 @@
+#Articles-container {
+	padding: 90px 10px 100px 10px;
+
+
+
+	#Articles {
+		margin-top: 20px;
+		padding: 15px;
+		background-color: white;
+		border-radius: 3px;
+		border: 1px solid rgb(220, 220, 220);
+		line-height: 1.6;
+
+		.title {
+			font-size: 13pt;
+			font-weight: bold;
+		}
+
+		.date {
+			margin-top: 10px;
+			.posted-date {
+
+			}
+		}	
+
+		.publisher {
+			margin-top: 10px;
+		}
+
+		.description {
+			font-size: 11pt;
+			margin-top: 20px;
+		}	
+
+		.original-link {
+			margin-top: 10px;
+		}
+	}
+}

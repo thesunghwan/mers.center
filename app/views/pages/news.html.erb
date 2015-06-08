@@ -1,0 +1,1 @@
+<%= react_component('News',{articles: Pile.order(posted_date: :desc).limit(20)}.to_json, {prerender: true, id: "NewsContainer"}) %>

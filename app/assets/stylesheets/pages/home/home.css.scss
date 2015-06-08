@@ -1,0 +1,93 @@
+#HomeContainer {
+}
+
+#Home {
+	padding: 90px 10px 100px 10px;
+
+	a {
+		color: rgb(70, 70, 70);
+		text-decoration: none;
+	}
+
+	h1, h2, h3 {
+		margin: 0;
+		padding: 0;
+	}
+
+	#FeaturedNews {
+		max-width: 450px;
+		margin-top: 20px;
+		
+		background-color: white;
+		border: 1px solid rgb(220, 220, 220);
+		border-radius: 3px;
+
+		.title-container {
+			position: relative;
+			border-bottom: 1px solid rgb(170, 170, 170);
+			padding: 10px 15px 10px 15px;
+			
+			.title {
+				display: inline-block;
+				font-size: 11pt;
+			}
+
+			.all-news {
+				position: absolute;
+				right: 15px;
+				font-size: 10pt;
+			}
+		}
+	}
+
+	#OtherReferences {
+		margin-top: 25px;
+		text-align: center;
+	}
+
+	#MersMap {
+		margin-top: 15px;
+		
+		.map-container {
+			position: relative;
+			max-width: 300px;
+			margin: 0 auto;
+
+			img {
+				width: 100%;
+			}
+
+			.source {
+				position: absolute;
+				right: 0;
+				font-size: 10pt;
+			}
+		}
+	}
+
+	.article-row {
+		padding: 12px;
+		border-bottom: 1px solid rgb(200, 200, 200);
+		.title {
+			font-size: 11pt;
+			font-weight: 600;
+		}
+
+		.publisher {
+			font-size: 10pt;
+			margin-left: 8px;
+		}
+
+		.row {
+			margin-top: 4px;
+		}
+
+		.posted-date {
+			font-size: 10.5pt;
+		}
+
+		.from-now {
+			font-size: 9.5pt;
+		}
+	}
+}

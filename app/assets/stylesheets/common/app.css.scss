@@ -1,0 +1,15 @@
+html {
+	-webkit-user-select:none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    
+	body {
+		background-color: #eff1f4;
+
+		.container {
+			max-width: 960px;
+			margin: 0 auto;
+		}
+	}
+}

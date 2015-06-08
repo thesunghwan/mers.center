@@ -1,0 +1,53 @@
+#Header {
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background-color: white;
+	border-bottom: 1px solid rgb(220, 220, 220);
+	z-index: 1000;
+
+	.header-container {
+		position: relative;
+		max-width: 960px;
+		margin: 0 auto;
+		
+		.BI {
+			position: absolute;
+			display: inline-block;
+			margin-left: 15px;
+			margin-top: 17px;
+			height: 15px;
+		}
+		.right-tabs {
+			position: absolute;
+			right: 0;
+
+			.facebook-signup {
+				height: 50px;
+				background-color: rgb(58,87,149);
+				font-size: 10pt;
+				color: white;
+				border: 0;
+				padding-right: 10px;
+				padding-left: 10px;
+			}
+
+			.right-tab {
+				display: inline-block;
+				text-align: center;
+				width: 55px;
+				color: rgb(70, 70, 70);
+			}
+		}
+
+		.tab {
+			display: inline-block;
+
+			&.news {
+				margin-left: 130px;
+				font-size: 12pt;
+			}
+		}
+	}	
+}
