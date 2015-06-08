@@ -1,0 +1,21 @@
+#NewsTabs {
+	margin-top: 20px;
+	background-color: white;
+	border: 1px solid rgb(220, 220, 220);
+	border-radius: 3px;
+
+	.tab {
+		display: inline-block;
+		text-align: center;
+		width: 33.33%;
+		height: 33px;
+		line-height: 33px;
+		font-size: 10pt;
+
+		&.active, &:active, &:hover {
+			background-color: rgb(220, 50, 50);
+			font-weight: bold;
+			color: white;
+		}
+	}
+}

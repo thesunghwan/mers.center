@@ -31,6 +31,7 @@ var News = React.createClass({
   render: function() {
     return (
       <div id='News'>
+        <NewsTabs />
         <News.AllNews articles={this.state.articles} />
       </div>
     );
