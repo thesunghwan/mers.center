@@ -18,6 +18,9 @@
 		display: inline-block;
 		vertical-align: top;
 		width: 50%;
+		@media screen and (max-width: 700px) {
+		    width: 100%;
+		}
 		margin-top: 20px;
 		
 		.news-container {
@@ -25,6 +28,7 @@
 			border: 1px solid rgb(220, 220, 220);
 			border-radius: 3px;
 			margin: 0 10px 0 10px;
+
 			.title-container {
 				position: relative;
 				border-bottom: 1px solid rgb(170, 170, 170);
@@ -35,7 +39,7 @@
 					font-size: 11pt;
 				}
 
-				.all-news {
+				.more {
 					position: absolute;
 					right: 15px;
 					font-size: 10pt;

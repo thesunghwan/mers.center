@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   get 'articles/:uid' => 'pages#articles'
   get 'rumors' => 'pages#rumors'
   get 'news' => 'pages#news'
+  get 'news/featured' => 'pages#news'
+  get 'news/government' => 'pages#news'
 
   namespace :api do
     namespace :v1 do

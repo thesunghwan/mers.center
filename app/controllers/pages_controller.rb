@@ -21,5 +21,14 @@ class PagesController < ApplicationController
   end
 
   def news
+    path = request.env['PATH_INFO']
+
+    if path == "/news/featured"
+      @piles = Pile.where(curation: true).order(posted_date: :desc).limit(20)
+    elsif path == "/news/government"
+      @piles = Pile.where(pile_type: "government").order(posted_date: :desc).limit(20)
+    else
+      @piles = Pile.order(posted_date: :desc).limit(20)
+    end
   end
 end

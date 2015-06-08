@@ -29,6 +29,7 @@ Home.FeaturedNews = React.createClass({
         <div className='news-container'>
           <div className='title-container'>
             <h3 className='title'>주요 뉴스</h3>
+            <a className='more' href='/news/featured'>더보기</a>
           </div>
           <div className=''>
             {articleRows}
@@ -51,6 +52,7 @@ Home.GovernmentNews = React.createClass({
         <div className='news-container'>
           <div className='title-container'>
             <h3 className='title'>정부 소식</h3>
+            <a className='more' href='/news/government'>더보기</a>
           </div>
           <div className=''>
             {articleRows}
