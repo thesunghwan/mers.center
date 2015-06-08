@@ -12,11 +12,22 @@ var News = React.createClass({
       
       var ratio = scrollTop / height;
 
+      var pathname = window.location.pathname;
+
+      if(pathname == "/news/featured") {
+        var newsType = "fatured";
+      } else if(pathname == "/news/government") {
+        var newsType = "government";
+      } else {
+        var newsType = "news";
+      }
+
       if(ratio > 0.80) {
         $.ajax({
           url: "/api/v1/articles",
           type: "GET",
           data: {
+            news_type: newsType,
             last_article_uid: that.state.articles[that.state.articles.length-1].uid
           },
           success: function(resp) {

@@ -1,6 +1,13 @@
 class Pile < ActiveRecord::Base
   after_create :after_pile_create
 
+  scope :government_news, -> {
+    where(pile_type: "government")
+  }
+  scope :featured_news, -> {
+    where(curation: true)
+  }
+
   def after_pile_create
     create_uid
   end
