@@ -21,7 +21,7 @@ class Koreakr
             description: description,
             posted_date: posted_date,
             publisher: publisher,
-            pile_type: "policy"
+            pile_type: "government"
           })
         end
       end

@@ -1,1 +1,1 @@
-<%= react_component('Home',{articles: Pile.where(curation: true).order(posted_date: :desc).limit(20)}.to_json, {prerender: true, id: "HomeContainer"}) %>
+<%= react_component('Home', {featured_news: Pile.where(curation: true).order(posted_date: :desc).limit(20),government_news: Pile.where(pile_type: "government").order(posted_date: :desc).limit(20)}.to_json, {prerender: true, id: "HomeContainer"}) %>

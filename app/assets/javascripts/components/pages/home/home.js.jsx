@@ -1,16 +1,63 @@
 var Home = React.createClass({
   getInitialState: function() {
     return {
-      articles: this.props.articles 
+      featured_news: this.props.featured_news,
+      government_news: this.props.government_news
     }
   },  
   render: function() {
     return (
       <div id='Home'>
-        <Home.FeaturedNews articles={this.state.articles} />
+        <Home.FeaturedNews articles={this.state.featured_news} />
+        <Home.GovernmentNews articles={this.state.government_news} />
         <Home.OtherReferences />
       </div>
     );
+  }
+});
+
+Home.FeaturedNews = React.createClass({
+  render: function() {
+    var articleRows = this.props.articles.map(function(article) {
+      return (
+        <Home.ArticleRow key={article.uid} article={article} />
+      )
+    })
+
+    return (
+      <div id='FeaturedNews' className='home-news'>
+        <div className='news-container'>
+          <div className='title-container'>
+            <h3 className='title'>주요 뉴스</h3>
+          </div>
+          <div className=''>
+            {articleRows}
+          </div>
+        </div>
+      </div>
+    )
+  }
+});
+
+Home.GovernmentNews = React.createClass({
+  render: function() {
+    var articleRows = this.props.articles.map(function(article) {
+      return (
+        <Home.ArticleRow key={article.uid} article={article} />
+      )
+    })
+    return (
+      <div id='GovernmentNews' className='home-news'>
+        <div className='news-container'>
+          <div className='title-container'>
+            <h3 className='title'>정부 소식</h3>
+          </div>
+          <div className=''>
+            {articleRows}
+          </div>
+        </div>
+      </div>
+    )
   }
 });
 
@@ -32,28 +79,6 @@ Home.MersMap = React.createClass({
         <div className='map-container'>
           <a href='http://mersmap.com/'><img src='/assets/mers_map.png' /></a>
           <div className='source'>with <a href='http://likelion.net'>멋쟁이사자처럼</a> / <a href='http://www.datasquare.co.kr/'>Datasquare</a></div>
-        </div>
-      </div>
-    )
-  }
-});
-
-Home.FeaturedNews = React.createClass({
-  render: function() {
-    var articleRows = this.props.articles.map(function(article) {
-      return (
-        <Home.ArticleRow key={article.uid} article={article} />
-      )
-    })
-
-    return (
-      <div id='FeaturedNews'>
-        <div className='title-container'>
-          <h3 className='title'>주요 뉴스</h3>
-          <a className='all-news' href='/news'>모든 뉴스 보기</a>
-        </div>
-        <div className=''>
-          {articleRows}
         </div>
       </div>
     )

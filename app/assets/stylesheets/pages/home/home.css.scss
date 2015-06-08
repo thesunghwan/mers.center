@@ -2,7 +2,7 @@
 }
 
 #Home {
-	padding: 90px 10px 100px 10px;
+	padding: 90px 0 100px 0;
 
 	a {
 		color: rgb(70, 70, 70);
@@ -14,28 +14,32 @@
 		padding: 0;
 	}
 
-	#FeaturedNews {
-		max-width: 450px;
+	.home-news {
+		display: inline-block;
+		vertical-align: top;
+		width: 50%;
 		margin-top: 20px;
 		
-		background-color: white;
-		border: 1px solid rgb(220, 220, 220);
-		border-radius: 3px;
+		.news-container {
+			background-color: white;
+			border: 1px solid rgb(220, 220, 220);
+			border-radius: 3px;
+			margin: 0 10px 0 10px;
+			.title-container {
+				position: relative;
+				border-bottom: 1px solid rgb(170, 170, 170);
+				padding: 10px 15px 10px 15px;
+				
+				.title {
+					display: inline-block;
+					font-size: 11pt;
+				}
 
-		.title-container {
-			position: relative;
-			border-bottom: 1px solid rgb(170, 170, 170);
-			padding: 10px 15px 10px 15px;
-			
-			.title {
-				display: inline-block;
-				font-size: 11pt;
-			}
-
-			.all-news {
-				position: absolute;
-				right: 15px;
-				font-size: 10pt;
+				.all-news {
+					position: absolute;
+					right: 15px;
+					font-size: 10pt;
+				}
 			}
 		}
 	}

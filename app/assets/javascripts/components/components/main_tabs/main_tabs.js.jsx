@@ -23,7 +23,7 @@ var MainTabs = React.createClass({
 
 		return (
 			<div id='MainTabs'>
-				<a href='/news'><div className={newsTabClass}>뉴스<div className='underline' /></div></a>
+				<a href='/news'><div className={newsTabClass}>모든 뉴스<div className='underline' /></div></a>
 				<div className={rumorsTabClass} onClick={this.clickRumors}>유언비어<div className='underline' /></div>
 			</div>
 		)
