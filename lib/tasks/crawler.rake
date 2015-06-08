@@ -1,3 +1,5 @@
+require 'csv'
+
 namespace :crawler do
   desc "Run Crawler..."
   task run: :environment do
@@ -57,5 +59,30 @@ namespace :crawler do
     Koreakr.run "http://www.korea.kr/rss/fact.xml"
     Koreakr.run "http://www.korea.kr/rss/card_news.xml"
 
+  end
+
+  desc "load MERS patients data"
+  task load_patients: :environment do
+    puts "Load MERS patients data."
+    patients_file = File.join(Rails.root, 'db', 'patients.csv')
+    Patient.delete_all
+    CSV.foreach(patients_file) do |row|
+      case_id, gender, age, developed, diagnosed, contracted_place, contracted_from, relationship, relationship_code, possible_contracted_date, days_to_show, days_to_be_diagnosed, remarks = row
+      pa = Patient.create(
+        case_id: case_id,
+        gender: gender,
+        age: age,
+        developed: developed,
+        diagnosed: diagnosed,
+        contracted_place: contracted_place,
+        contracted_from: contracted_from,
+        relationship: relationship,
+        relationship_code: relationship_code,
+        possible_contracted_date: possible_contracted_date,
+        days_to_show: days_to_show,
+        days_to_be_diagnosed: days_to_be_diagnosed,
+        remarks: remarks)
+      puts pa.inspect
+    end
   end
 end

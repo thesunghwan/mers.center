@@ -1,0 +1,87 @@
+1,M,68,2015-05-11,2015-05-20,Middle East,unknown,unknown,O,unknown,#NULL!,9,
+2,F,63,2015-05-19,2015-05-20,Home?,1,spouse,F,2015-05-11,8,1,Cured/released; Korea CDC genome sequencing source.
+3,M,75,2015-05-20,2015-05-21,B,1,shared inpatient room,S,2015-05-15,5,1,Deceased.
+4,F,46,2015-05-25,2015-05-26,B,1,family of patient 3,F,2015-05-15,10,1,
+5,M,50,2015-05-25,2015-05-26,C,1,health professional,P,2015-05-17,8,1,Treated patient 1 on May 17. Cured/released
+6,M,71,2015-05-24,2015-05-28,B,1,shared inpatient ward,S,2015-05-15,9,4,Deceased.
+7,F,28,2015-05-26,2015-05-28,B,1,health professional,P,2015-05-15,11,2,
+8,F,46,2015-05-23,2015-05-29,A,1,health professional,P,2015-05-12,11,6,"Treated patient 1 on May 12, 14, and 15"
+9,M,56,2015-05-27,2015-05-29,B,1,shared inpatient floor,S,2015-05-15,12,2,
+10,M,44,2015-05-19,2015-05-29,B,1,family of patient 3,F,2015-05-16,3,10,Exposed on May 16. Went to China via Hong Kong on May 26. Diagnosed by China CDC
+11,F,79,2015-05-20,2015-05-29,B,1,shared inpatient ward,S,2015-05-15,5,9,During May 15-17
+12,F,49,2015-05-21,2015-05-29,B,1,shared inpatient ward,S,2015-05-15,6,8,During May 15-17
+13,M,49,2015-05-21,2015-05-29,B,1,shared inpatient ward,S,2015-05-15,6,8,During May 15-17
+14,M,35,2015-05-21,2015-05-30,B,1,shared inpatient ward,S,2015-05-15,6,9,During May 15-17
+15,M,35,2015-05-22,2015-05-30,B,1,son of one of patients above,F,2015-05-15,7,8,During May 15-17
+16,M,40,2015-05-20,2015-05-31,B,1,shared inpatient ward,S,2015-05-15,5,11,During May 15-17
+17,M,45,2015-05-22,2015-05-31,B,1,son of one of the patients above,F,2015-05-15,7,9,During May 15-16
+18,F,77,2015-05-20,2015-05-31,B,1,shared inpatient ward,S,2015-05-15,5,11,During May 15-16
+19,M,60,2015-05-28,2015-06-01,B,1,shared inpatient ward,C,2015-05-16,12,4,"Caregiver, During May 16-17"
+20,M,40,2015-05-23,2015-06-01,B,1,shared inpatient ward,S,2015-05-15,8,9,During May 15-17
+21,F,59,2015-05-23,2015-06-01,B,1,shared inpatient ward,C,2015-05-15,8,9,"Caregiver, During May 15-17"
+22,F,39,2015-05-27,2015-06-01,B,1,shared inpatient ward,C,2015-05-15,12,5,"Caregiver, During May 15-17"
+23,M,73,2015-05-31,2015-06-01,E,16,shared inpatient room,S,2015-05-28,3,1,During May 28-30
+24,M,78,2015-05-31,2015-06-01,E,16,shared inpatient room,S,2015-05-28,3,1,During May 28-30
+25,F,57,2015-05-25,2015-06-01,B,1,shared inpatient ward,S,2015-05-15,10,7,"During May 15-17, Deceased"
+26,M,43,2015-05-21,2015-06-02,B,1,shared inpatient ward,C,2015-05-15,6,12,"Caregiver, During May 15-17"
+27,M,55,2015-06-01,2015-06-02,B,1,shared inpatient ward,S,2015-05-15,17,1,During May 15-17
+28,M,58,2015-05-29,2015-06-02,B,1',shared inpatient ward,F,2015-05-15,14,4,"Spouse, During May 15-17"
+29,F,77,2015-05-24,2015-06-02,B,1,shared inpatient ward,S,2015-05-15,9,9,During May 15-17
+30,M,60,2015-05-30,2015-06-02,F,16,shared inpatient room,S,2015-05-22,8,3,During May 22-28
+31,M,69,2015-06-01,2015-06-04,E,16,shared inpatient room,S,2015-05-28,4,3,During May 28-30
+32,M,54,2015-05-23,2015-06-04,B,1,shared inpatient ward,V,2015-05-15,8,12,"Visitor, On May 15"
+33,M,47,2015-05-21,2015-06-04,B,1,shared inpatient ward,V,2015-05-15,6,14,"Visitor, On May 15"
+34,F,25,2015-05-20,2015-06-04,B,1,health professional,P,2015-05-15,5,15,During May 15-17
+35,M,38,2015-05-30,2015-06-04,D,14,health professional,P,2015-05-27,3,5,"On May 27, at ER"
+36,M,82,2015-06-01,2015-06-04,E,16,shared inpatient room,S,2015-05-28,4,3,"On May 28, Deceased"
+37,M,45,2015-06-04,2015-06-05,B,1,shared inpatient ward,S,2015-05-15,20,1,"During May 14-27, and also with patients #9, #11, #12, #14"
+38,M,49,2015-05-26,2015-06-05,F,16,shared inpatient room,S,2015-05-22,4,10,During May 14-31
+39,M,62,2015-06-02,2015-06-05,B,1',shared inpatient ward,S,2015-05-20,13,3,"During May 20-28, with patients #9, #11, #12, #14"
+40,M,24,2015-05-22,2015-06-05,B,1',shared inpatient room,S,2015-05-22,0,14,"During May 22-28, with patients #9 and #14"
+41,F,70,2015-06-04,2015-06-05,D,14,er visit,S,2015-05-27,8,1,On May 27
+42,F,54,2015-05-25,2015-06-05,B,1',other floor patient,S,2015-05-19,6,11,During May 19-20
+43,F,24,2015-05-29,2015-06-06,B,1',health professional,P,2015-05-15,14,8,Other floor
+44,F,51,2015-06-01,2015-06-06,B,1',other floor patient,S,2015-05-18,14,5,During May 18-28
+45,M,65,2015-06-01,2015-06-06,E,16,shared inpatient ward,S,2015-05-28,4,5,During May 28-30
+46,M,40,2015-06-01,2015-06-06,D,14,er outpatient,S,2015-05-27,5,5,On May 27
+47,F,68,2015-06-02,2015-06-06,D,14,er outpatient,S,2015-05-27,6,4,On May 27
+48,M,39,2015-05-31,2015-06-06,D,14,shared inpatient room,C,2015-05-28,3,6,"Caregiver, On May 28"
+49,M,75,2015-05-31,2015-06-06,D,14,er outpatient,S,2015-05-27,4,6,On May 27
+50,F,81,2015-05-30,2015-06-06,D,14,er outpatient,S,2015-05-27,3,7,On May 27
+51,F,72,2015-06-02,2015-06-06,B,1,same hospital,S,2015-05-15,18,4,During May 12-21
+52,F,54,2015-05-31,2015-06-06,B,1',same hospital,S,2015-05-23,8,6,During May 23-28
+53,M,51,2015-05-29,2015-06-06,B,1',same hospital,S,2015-05-26,3,8,During May 26-28
+54,F,64,2015-06-03,2015-06-06,F,16,shared inpatient room,C,2015-05-22,12,3,"Caregiver, During May 22-28"
+55,M,36,2015-05-30,2015-06-06,D,14,er inpatient,S,2015-05-27,3,7,During May 26-28
+56,M,45,2015-06-02,2015-06-06,D,14,er inpatient,S,2015-05-27,6,4,During May 26-Jun 1
+57,M,57,2015-06-03,2015-06-06,D,14,er outpatient,S,2015-05-27,7,3,On May 27
+58,M,55,2015-06-02,2015-06-06,D,14,er outpatient,S,2015-05-27,6,4,On May 27
+59,M,44,2015-06-05,2015-06-06,D,14,er outpatient,S,2015-05-27,9,1,On May 27
+60,F,37,2015-06-01,2015-06-06,D,14,health professional,P,2015-05-27,5,5,On May 27
+61,M,55,2015-06-02,2015-06-06,D,14,er inpatient,S,2015-05-27,6,4,During May 27-28
+62,M,32,2015-05-30,2015-06-06,D,14,er inpatient,C,2015-05-27,3,7,"During May 27-28, Caregiver."
+63,F,58,2015-06-03,2015-06-06,D,14,er outpatient,S,2015-05-28,6,3,During May 28-29
+64,M,75,2015-06-04,2015-06-06,D,14,er patient,S,2015-05-27,8,2,"During May 27-29, Deceased on Jun 5."
+65,F,55,n/a,2015-06-07,D,14,er extended stay,E,2015-05-27,#NULL!,#NULL!,"On May 27, Extended Stay (체류)"
+66,F,42,n/a,2015-06-07,D,14,er inpatient,S,2015-05-27,#NULL!,#NULL!,During May 27-30
+67,M,16,n/a,2015-06-07,D,14,er inpatient,S,2015-05-27,#NULL!,#NULL!,"ER inpatient on May 27, then remained in the hospital"
+68,F,55,n/a,2015-06-07,D,14,er visitor,V,2015-05-27,#NULL!,#NULL!,"On May 27, Visitor (방문)"
+69,M,57,n/a,2015-06-07,D,14,er extended stay,E,2015-05-27,#NULL!,#NULL!,"On May 27, Extended Stay (체류)"
+70,M,59,n/a,2015-06-07,D,14,er extended stay,E,2015-05-27,#NULL!,#NULL!,"During May 27-28, Extended Stay (체류)"
+71,F,40,n/a,2015-06-07,D,14,er outpatient,S,2015-05-27,#NULL!,#NULL!,On May 27
+72,M,56,n/a,2015-06-07,D,14,er outpatient,S,2015-05-27,#NULL!,#NULL!,On May 27
+73,F,65,n/a,2015-06-07,D,14,er inpatient,S,2015-05-27,#NULL!,#NULL!,On May 27
+74,M,71,n/a,2015-06-07,D,14,er extended stay,E,2015-05-27,#NULL!,#NULL!,On May 27. Extended Stay (체류)
+75,F,63,n/a,2015-06-07,D,14,er outpatient,S,2015-05-27,#NULL!,#NULL!,During May 25-28
+76,F,75,n/a,2015-06-07,D,14,er inpatient,S,2015-05-27,#NULL!,#NULL!,During May 27-28
+77,M,63,n/a,2015-06-07,D,14,er outpatient,S,2015-05-27,#NULL!,#NULL!,During May 27-28
+78,F,41,2015-06-02,2015-06-07,D,14,health professional,P,2015-05-27,6,5,During May 27-28
+79,F,24,n/a,2015-06-07,D,14,health professional,P,2015-05-27,#NULL!,#NULL!,During May 27-29
+80,M,35,n/a,2015-06-07,D,14,er inpatient,S,2015-05-27,#NULL!,#NULL!,During May 27-29
+81,M,62,n/a,2015-06-07,D,14,er extended stay,E,2015-05-27,#NULL!,#NULL!,"On May 28, Extended Stay (체류)"
+82,F,83,n/a,2015-06-07,E,16,shared inpatient room,C,2015-05-28,#NULL!,#NULL!,"May 28-30, Caregiver"
+83,M,65,n/a,2015-06-07,E,16,shared inpatient ward,S,2015-05-28,#NULL!,#NULL!,May 28-30
+84,M,80,n/a,2015-06-07,F,16,shared inpatient ward,S,2015-05-25,#NULL!,#NULL!,"May 25-28, Deceased on Jun 8 (unofficial; from a news report)."
+85,F,66,n/a,2015-06-07,F,16,shared inpatient room,C,2015-05-25,#NULL!,#NULL!,"May 25-28, Caregiver"
+86,F,76,n/a,2015-06-07,F,16,shared inpatient ward,S,2015-05-25,#NULL!,#NULL!,May 25-28
+87,F,78,n/a,2015-06-07,F,16,shared inpatient ward,S,2015-05-25,#NULL!,#NULL!,May 25-28
