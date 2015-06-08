@@ -29,7 +29,7 @@ namespace :crawler do
     Kyounghyang.run("http://www.khan.co.kr/rss/rssdata/culture.xml")
     Kyounghyang.run("http://www.khan.co.kr/rss/rssdata/itnews.xml")
     Kyounghyang.run("http://www.khan.co.kr/rss/rssdata/world.xml")
-
+=begin
     Mediatoday.run "http://www.mediatoday.co.kr/rss/allArticle.xml"
     Mediatoday.run "http://www.mediatoday.co.kr/rss/clickTop.xml"
     Mediatoday.run "http://www.mediatoday.co.kr/rss/S1N1.xml"
@@ -38,7 +38,7 @@ namespace :crawler do
     Mediatoday.run "http://www.mediatoday.co.kr/rss/S1N4.xml"
     Mediatoday.run "http://www.mediatoday.co.kr/rss/S1N6.xml"
     Mediatoday.run "http://www.mediatoday.co.kr/rss/S1N9.xml"
-
+=end
 
     Hani.run "http://www.hani.co.kr/rss/politics/"
     Hani.run "http://www.hani.co.kr/rss/economy/"
